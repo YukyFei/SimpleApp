@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "YBTabbarViewController.h"
+#import "YBNavigationController.h"
+#import "YBHomeViewController.h"
+#import "YBVideoViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    YBTabbarViewController *tabbarController = [[YBTabbarViewController alloc] init];
+    self.window.rootViewController = tabbarController;
+    
+    YBHomeViewController *homeController = [[YBHomeViewController alloc] init];
+    YBNavigationController *nav1 = [[YBNavigationController alloc] initWithRootViewController:homeController];
+    
+    YBVideoViewController *videoController = [[YBVideoViewController alloc] init];
+    YBNavigationController *nav2 = [[YBNavigationController alloc] initWithRootViewController:videoController];
+    
+    [tabbarController addChildViewController:nav1];
+    [tabbarController addChildViewController:nav2];
+    
+
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

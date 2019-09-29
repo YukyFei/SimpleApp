@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7B35B7609A5C672BA361F295 /* Pods_SimpleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9FE892A10D779B0923420E /* Pods_SimpleApp.framework */; };
+		7F0E0E3C2337C3F8007F444D /* YBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E0E3B2337C3F8007F444D /* YBViewController.m */; };
+		7F0E0E3F2337C40D007F444D /* YBTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E0E3E2337C40D007F444D /* YBTabbarViewController.m */; };
+		7F0E0E422337C426007F444D /* YBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E0E412337C426007F444D /* YBNavigationController.m */; };
+		7F0E0E462337C573007F444D /* YBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E0E452337C573007F444D /* YBHomeViewController.m */; };
+		7F0E0E4A2337C605007F444D /* YBVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E0E492337C605007F444D /* YBVideoViewController.m */; };
+		7F0E0E4D2337C6AC007F444D /* YBCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E0E4C2337C6AC007F444D /* YBCustomView.m */; };
 		7F121E2923361D7600C0E01C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F121E2823361D7600C0E01C /* AppDelegate.m */; };
-		7F121E2C23361D7600C0E01C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F121E2B23361D7600C0E01C /* ViewController.m */; };
-		7F121E2F23361D7600C0E01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F121E2D23361D7600C0E01C /* Main.storyboard */; };
 		7F121E3123361D7800C0E01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F121E3023361D7800C0E01C /* Assets.xcassets */; };
 		7F121E3423361D7800C0E01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F121E3223361D7800C0E01C /* LaunchScreen.storyboard */; };
 		7F121E3723361D7800C0E01C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F121E3623361D7800C0E01C /* main.m */; };
@@ -38,12 +42,21 @@
 /* Begin PBXFileReference section */
 		075C271EC680BCE43A60E7CA /* Pods-SimpleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleApp.debug.xcconfig"; path = "Target Support Files/Pods-SimpleApp/Pods-SimpleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4A9FE892A10D779B0923420E /* Pods_SimpleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0E0E3A2337C3F8007F444D /* YBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBViewController.h; sourceTree = "<group>"; };
+		7F0E0E3B2337C3F8007F444D /* YBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBViewController.m; sourceTree = "<group>"; };
+		7F0E0E3D2337C40D007F444D /* YBTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBTabbarViewController.h; sourceTree = "<group>"; };
+		7F0E0E3E2337C40D007F444D /* YBTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBTabbarViewController.m; sourceTree = "<group>"; };
+		7F0E0E402337C426007F444D /* YBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBNavigationController.h; sourceTree = "<group>"; };
+		7F0E0E412337C426007F444D /* YBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBNavigationController.m; sourceTree = "<group>"; };
+		7F0E0E442337C573007F444D /* YBHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBHomeViewController.h; sourceTree = "<group>"; };
+		7F0E0E452337C573007F444D /* YBHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBHomeViewController.m; sourceTree = "<group>"; };
+		7F0E0E482337C605007F444D /* YBVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBVideoViewController.h; sourceTree = "<group>"; };
+		7F0E0E492337C605007F444D /* YBVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBVideoViewController.m; sourceTree = "<group>"; };
+		7F0E0E4B2337C6AC007F444D /* YBCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBCustomView.h; sourceTree = "<group>"; };
+		7F0E0E4C2337C6AC007F444D /* YBCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBCustomView.m; sourceTree = "<group>"; };
 		7F121E2423361D7600C0E01C /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F121E2723361D7600C0E01C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F121E2823361D7600C0E01C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7F121E2A23361D7600C0E01C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7F121E2B23361D7600C0E01C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7F121E2E23361D7600C0E01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F121E3023361D7800C0E01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F121E3323361D7800C0E01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F121E3523361D7800C0E01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +104,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7F0E0E432337C46A007F444D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7F0E0E442337C573007F444D /* YBHomeViewController.h */,
+				7F0E0E452337C573007F444D /* YBHomeViewController.m */,
+				7F0E0E4B2337C6AC007F444D /* YBCustomView.h */,
+				7F0E0E4C2337C6AC007F444D /* YBCustomView.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7F0E0E472337C5DF007F444D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				7F0E0E482337C605007F444D /* YBVideoViewController.h */,
+				7F0E0E492337C605007F444D /* YBVideoViewController.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
 		7F121E1B23361D7600C0E01C = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +149,12 @@
 		7F121E2623361D7600C0E01C /* SimpleApp */ = {
 			isa = PBXGroup;
 			children = (
+				7F0E0E472337C5DF007F444D /* Video */,
+				7F0E0E432337C46A007F444D /* Home */,
 				7F121E5A23362EE400C0E01C /* Utils */,
 				7F121E5923362ED700C0E01C /* Base */,
 				7F121E2723361D7600C0E01C /* AppDelegate.h */,
 				7F121E2823361D7600C0E01C /* AppDelegate.m */,
-				7F121E2A23361D7600C0E01C /* ViewController.h */,
-				7F121E2B23361D7600C0E01C /* ViewController.m */,
-				7F121E2D23361D7600C0E01C /* Main.storyboard */,
 				7F121E3023361D7800C0E01C /* Assets.xcassets */,
 				7F121E3223361D7800C0E01C /* LaunchScreen.storyboard */,
 				7F121E3523361D7800C0E01C /* Info.plist */,
@@ -152,6 +184,12 @@
 		7F121E5923362ED700C0E01C /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				7F0E0E3A2337C3F8007F444D /* YBViewController.h */,
+				7F0E0E3B2337C3F8007F444D /* YBViewController.m */,
+				7F0E0E3D2337C40D007F444D /* YBTabbarViewController.h */,
+				7F0E0E3E2337C40D007F444D /* YBTabbarViewController.m */,
+				7F0E0E402337C426007F444D /* YBNavigationController.h */,
+				7F0E0E412337C426007F444D /* YBNavigationController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -279,7 +317,6 @@
 			files = (
 				7F121E3423361D7800C0E01C /* LaunchScreen.storyboard in Resources */,
 				7F121E3123361D7800C0E01C /* Assets.xcassets in Resources */,
-				7F121E2F23361D7600C0E01C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +383,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F121E2C23361D7600C0E01C /* ViewController.m in Sources */,
+				7F0E0E422337C426007F444D /* YBNavigationController.m in Sources */,
+				7F0E0E3F2337C40D007F444D /* YBTabbarViewController.m in Sources */,
+				7F0E0E4D2337C6AC007F444D /* YBCustomView.m in Sources */,
+				7F0E0E4A2337C605007F444D /* YBVideoViewController.m in Sources */,
 				7F121E3723361D7800C0E01C /* main.m in Sources */,
 				7F121E2923361D7600C0E01C /* AppDelegate.m in Sources */,
+				7F0E0E462337C573007F444D /* YBHomeViewController.m in Sources */,
+				7F0E0E3C2337C3F8007F444D /* YBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,14 +426,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7F121E2D23361D7600C0E01C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F121E2E23361D7600C0E01C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7F121E3223361D7800C0E01C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
