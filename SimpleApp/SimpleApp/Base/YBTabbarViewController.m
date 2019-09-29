@@ -7,7 +7,9 @@
 //
 
 #import "YBTabbarViewController.h"
-
+#import "YBNavigationController.h"
+#import "YBHomeViewController.h"
+#import "YBVideoViewController.h"
 
 
 @interface YBTabbarViewController ()
@@ -19,10 +21,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    YBHomeViewController *homeController = [[YBHomeViewController alloc] init];
+    YBNavigationController *nav1 = [[YBNavigationController alloc] initWithRootViewController:homeController];
+    homeController.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:0];
     
     
-    
-    
+    YBVideoViewController *videoController = [[YBVideoViewController alloc] init];
+    YBNavigationController *nav2 = [[YBNavigationController alloc] initWithRootViewController:videoController];
+    videoController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"视频" image:[UIImage imageNamed:@"location"] tag:1];
+    self.tabBar.tintColor = [UIColor redColor];
+    self.tabBar.barTintColor = [UIColor blackColor];
+    self.viewControllers = @[nav1,nav2];
 }
 
 /*
